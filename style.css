@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+  height:100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper{
+  width:100%;
+  height:100%;
+  margin-top:30px;
+  justify-content: center;
+
+}
+
+.title{
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  height:30px;
+  line-height: 30px;
+}
+
+.date{
+  float:left;
+  height:30px;
+  line-height: 30px;
+  padding-left: 20px;
+}
+
+.content{
+  float:left;
+}
+
+
+.img_cont {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+.image img{
+  width:100px;
+  float: left;
+}
+
+
+.date_detail{
+  font-size: 15px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.title_detail{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.content_detail{
+  text-align: right;
+}
+
+.tags{
+  float: left;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.cardPost{
+  width: 100%;
+  height: auto;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top:30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name{
+  font-size:20px;
+  padding-top: 20px;
+  float:left;
+  font-weight: bold;
+}
+.email{
+  float:right;
+  font-size:13px;
+  color:grey;
+}
+
+.comment{
+  padding-top: 40px;
+}
